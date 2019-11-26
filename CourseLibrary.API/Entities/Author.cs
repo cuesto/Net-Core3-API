@@ -7,7 +7,7 @@ namespace CourseLibrary.API.Entities
     public class Author
     {
         [Key]
-        public Guid Id { get; set; }
+        public Guid Id { get; set; } 
 
         [Required]
         [MaxLength(50)]
